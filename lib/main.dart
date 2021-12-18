@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_layout/More%20responsive/first.dart';
+import 'package:responsive_layout/profile.dart';
 
-import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Home(),
+      debugShowCheckedModeBanner: false,
+      home: First(),
     );
   }
 }
